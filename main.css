@@ -30,6 +30,7 @@ div.intro > div{
 button{
     background-color: rgb(61, 150, 61);
     color: white;
+    font-weight: 900;
 }
 div.intro > div > button{
     font-size: 20px;
@@ -95,12 +96,23 @@ div.how-it-works > div > div{
     background-color: rgb(61, 150, 61);
     width: 90%;
     font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 div.how-it-works > div{
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 20px;
+}
+h4{
+    font-size: 20px;
+    font-weight: 900;
 }
 div.how-it-works > span{
     background-color: rgb(61, 150, 61);
@@ -112,8 +124,13 @@ div.how-it-works > span{
     width: 50px;
     text-align: center;
 }
-span.points-icon{
-    width: 500px;
+div.how-it-works > div > div >i{
+    font-size: 50px;
+    border-radius: 50px;
+    background-color: rgb(29, 29, 41);
+    padding: 15px;
+    color: rgb(0, 140, 255);
+    
 }
 div.games-container,div.surveys-container,div.offerwalls-container,div.quckpoints-container{
     display: flex;
@@ -139,7 +156,7 @@ div.games > div > img,div.surveys > div > img,div.offerwalls > div > img,div.quc
     border: 1px solid rgb(61, 150, 61);
 }
 div.games div > a > button,div.surveys > div > a > button,div.offerwalls > div > a > button,div.quckpoints > div > a > button{
-    width: 95.5%;
+    width: 97%;
     border: none;
     color: rgb(29, 29, 41);
     padding-top: 10px;
@@ -152,5 +169,14 @@ div.games-intro > button,div.surveys-intro > a > button,div.offerwalls-intro > a
     padding-bottom: 10px;
     color: rgb(29, 29, 41);
     border: none;
-    border-radius: 5px;
+    border-radius: 50px;
+}
+h3{
+    text-align: center;
+}
+hr{
+    color: rgb(61, 150, 61);
+}
+hr.end{
+    color: rgb(0, 140, 255);
 }
