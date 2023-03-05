@@ -13,7 +13,6 @@ body{
 div.intro{
     display: grid;
     gap: 1.5rem;
-    border-bottom: 1px solid rgb(0, 140, 255);
 }
 div.banner-div {
     height: auto;
@@ -67,7 +66,6 @@ div.tasks{
     justify-content: space-around;
     padding-top: 10px;
     gap: 1rem;
-    border-bottom: 1px solid rgb(61, 150, 61);
     margin-bottom: 10px;
 }
 div.tasks > div{
@@ -147,6 +145,10 @@ div.games-container,div.surveys-container,div.offerwalls-container,div.quckpoint
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    margin-bottom: 50px;
+}
+div.quckpoints{
+    margin-bottom: 50px;
 }
 div.games,div.surveys,div.offerwalls,div.quckpoints{
     width: 97%;
@@ -167,7 +169,7 @@ div.games > div > img,div.surveys > div > img,div.offerwalls > div > img,div.quc
     border: 1px solid rgb(61, 150, 61);
 }
 div.games div > a > button,div.surveys > div > a > button,div.offerwalls > div > a > button,div.quckpoints > div > a > button{
-    width: 97%;
+    width: 98%;
     border: none;
     color: rgb(216, 216, 233);
     padding-top: 10px;
@@ -185,12 +187,6 @@ div.games-intro > button,div.surveys-intro > a > button,div.offerwalls-intro > a
 h3{
     text-align: center;
 }
-hr{
-    color: rgb(61, 150, 61);
-}
-hr.end{
-    color: rgb(0, 140, 255);
-}
 footer{
     width: 100%;
     display: flex;
@@ -198,6 +194,7 @@ footer{
     gap: 1.5em; 
     font-size: 13px;
     justify-content: center;
+    margin-bottom: 50px;
 }
 footer > div > h3{
     text-align: center;
@@ -250,4 +247,8 @@ nav > button{
 }
 nav > i{
     font-size: 30px;
+    cursor: pointer;
+}
+nav > :nth-child(4){
+    display: none;
 }
