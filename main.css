@@ -167,7 +167,7 @@ div.games > div,div.surveys > div,div.offerwalls > div,div.quckpoints > div{
     flex-direction: column;
 }
 div.games > div > img,div.surveys > div > img,div.offerwalls > div > img,div.quckpoints > div > img{
-    width: 95.6%;
+    width: 96.5%;
     height: 70%;
     border-top-left-radius: 20px;
     border: 1px solid rgb(61, 150, 61);
