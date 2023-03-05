@@ -117,6 +117,9 @@ div.how-it-works > div{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+div.how-it-works > div > div{
+    padding-top: 10px;
     padding-bottom: 20px;
 }
 h4{
@@ -193,8 +196,9 @@ footer{
     flex-wrap: wrap;
     gap: 1.5em; 
     font-size: 13px;
-    justify-content: center;
     margin-bottom: 50px;
+    justify-content: space-between;
+
 }
 footer > div > h3{
     text-align: center;
@@ -210,6 +214,10 @@ footer > div{
     border: 1px solid rgb(61, 150, 61);
     border-bottom: none;  
     border-radius: 10px;
+}
+div.more,div.about,div.help,div.cashouts,div.earn{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 div.about > button{
     width: 97%;
@@ -231,7 +239,7 @@ nav{
     position: fixed;
     top: 0;
     z-index: 1;
-    width: 100vw;
+    width: 100%;
     margin: 0;
     background-color: rgb(4, 25, 43)
 }
@@ -251,4 +259,21 @@ nav > i{
 }
 nav > :nth-child(4){
     display: none;
+}
+div.about > div > a{
+    font-size: 40px;
+    margin-right: 1%;
+}
+
+div.social-icons > :nth-child(1) > i{
+    color: rgb(0, 68, 255);
+}
+div.social-icons > :nth-child(2) > i{
+    color: red;
+}
+div.social-icons > :nth-child(3) > i{
+    color: rgb(0, 140, 255);
+}
+div.social-icons > :nth-child(4) > i{
+    color: rgb(206, 34, 63);
 }
