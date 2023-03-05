@@ -194,11 +194,9 @@ footer{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5em; 
     font-size: 13px;
     margin-bottom: 50px;
-    justify-content: space-between;
-
+    justify-content: space-around;
 }
 footer > div > h3{
     text-align: center;
@@ -218,6 +216,7 @@ footer > div{
 div.more,div.about,div.help,div.cashouts,div.earn{
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 div.about > button{
     width: 97%;
@@ -262,9 +261,12 @@ nav > :nth-child(4){
 }
 div.about > div > a{
     font-size: 40px;
-    margin-right: 1%;
+    text-decoration: none;
 }
-
+div.about > div{
+    display: flex;
+    justify-content: space-around;
+}
 div.social-icons > :nth-child(1) > i{
     color: rgb(0, 68, 255);
 }
