@@ -194,7 +194,7 @@ footer{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    font-size: 13px;
+    font-size: 15px;
     margin-bottom: 50px;
     justify-content: space-around;
 }
