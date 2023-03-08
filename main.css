@@ -45,26 +45,23 @@ div.nav > :nth-child(4){
     display: none;
 }
 div.intro{
-    gap: 1.5rem;
-    position: absolute;
-    top: 15%;
-}
-div.banner-div {
-    height: auto;
-    width: 100%;
-}
-div.intro > div > p,div.intro > div > h1{
-    text-align: center;
-    font-weight: 900;
-}
-div.intro > div > p{
-    font-size: 18px;
-    width: 93%;
-}
-div.intro > div{
-    white-space: pre-warp;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(assets/img/banner.jpg);
+    padding-top: 20px;
+    padding-bottom: 20px;
     justify-content: center;
+    height: 300px;
+    text-align: center;
+}
+div.intro > button{
+    border: none;
+    color: white;
+    border-radius: 5px;
+    width: 50%;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 button{
     background-color: rgb(61, 150, 61);
@@ -80,27 +77,11 @@ ul > li > a{
 h1,h2,h3{
     color: rgb(61, 150, 61);
 }
-div.banner-div > img {
-    width: 100%;
-    height: 350px;
-}
 div.joinbtn-div{
     display: flex;
     justify-content: center;
 }
-div.joinbtn-div > button{
-    font-size: 20px;
-    border: none;
-    color: white;
-    margin: 10px;
-    border-radius: 25px;
-    border: none;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 10%;
-    padding-right: 10%;
-    position: relative;
-}/*
+/*
 div.intro > div > button:hover{
     box-shadow: 5px 0px 30px rgba(245, 243, 243,0.3);
 }
@@ -224,7 +205,7 @@ div.games > div > img,div.surveys > div > img,div.offerwalls > div > img,div.qui
     border: 1px solid rgb(61, 150, 61);
 }
 div.games div > a > button,div.surveys > div > a > button,div.offerwalls > div > a > button,div.quickpoints > div > a > button{
-    width: 98%;
+    width: 98.5%;
     border: none;
     color: rgb(216, 216, 233);
     padding-top: 10px;
@@ -277,6 +258,8 @@ div.about{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 div.about > button{
     width: 97%;
@@ -308,16 +291,6 @@ div.social-icons > :nth-child(4) > i{
     color: rgb(206, 34, 63);
 }
 /*ADDING RESPONSIVENESS*/
-/*TINY SCREENS*/
-@media only screen and (max-width:318px){
-  /*  div.banner-div {
-        display: none;
-    } 
-    div.intro{
-        position: relative;
-    }
-    */
-}
 /*FOR TABLET*/
 @media only screen and (min-width:576px){
     div.tasks > div,div.games > div,div.surveys > div,div.offerwalls > div,footer > div{
@@ -346,17 +319,5 @@ div.social-icons > :nth-child(4) > i{
     div.games-intro > a > button,div.surveys-intro > a > button,div.offerwalls-intro > a > button,div.quickpoints-intro > a > button{
         padding-left: 15em;
         padding-right: 15em;
-    }
-    div.intro{
-        position: absolute;
-        top: 150px;
-        color: rgb(29, 29, 41);
-        font-weight: 400;
-        left: 0;
-        right: 0;
-
-    }
-    div.banner-div > img {
-        display: block;
     }
 }
